@@ -41,6 +41,7 @@ BUILD_FINGERPRINT="google/angler/angler:6.0.1/MMB29Q/2480792:user/release-keys" 
 PRIVATE_BUILD_DESC="angler-user 6.0.1 MMB29Q 2480792 release-keys"
 
 PRODUCT_PACKAGES += \
-   CellBroadcastReceiver
+    CellBroadcastReceiver \
+    Launcher3
 
 
