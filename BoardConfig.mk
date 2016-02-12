@@ -85,10 +85,12 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 # Enable dex-preoptimization to speed up first boot sequence
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
+   ifeq ($(user_variant),user)
     ifeq ($(WITH_DEXPREOPT),)
       WITH_DEXPREOPT := true
     endif
   endif
+ endif
 endif
 
 TARGET_USERIMAGES_USE_EXT4 := true
