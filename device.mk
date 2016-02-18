@@ -408,6 +408,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0
 
+# For Busybox-arm64
+PRODUCT_COPY_FILES += \
+    vendor/jakdillard/prebuilt/xbin/busybox/busybox-arm64:system/xbin/busybox
+
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
