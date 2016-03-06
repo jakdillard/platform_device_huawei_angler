@@ -42,5 +42,6 @@ PRIVATE_BUILD_DESC="angler-user 6.0.1 MMB29Q 2480792 release-keys"
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
-    Launcher3
+    Launcher3 \
+    Stk
 
