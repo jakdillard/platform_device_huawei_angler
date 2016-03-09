@@ -37,8 +37,8 @@ $(call inherit-product-if-exists, vendor/jdm/config/common.mk)
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-BUILD_FINGERPRINT="google/angler/angler:6.0.1/MMB29Q/2480792:user/release-keys" \
-PRIVATE_BUILD_DESC="angler-user 6.0.1 MMB29Q 2480792 release-keys"
+BUILD_FINGERPRINT="google/angler/angler:6.0.1/MMB29V/2554798:user/release-keys" \
+PRIVATE_BUILD_DESC="angler-user 6.0.1 MMB29V 2554798 release-keys"
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
